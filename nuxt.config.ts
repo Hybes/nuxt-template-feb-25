@@ -32,7 +32,6 @@ export default defineNuxtConfig({
     name: 'Hybes Template',
     description: 'Hybes Template',
     image: 'https://hybes.dev/og-image.png',
-    
   },
   seo: {
     meta: {
@@ -46,6 +45,13 @@ export default defineNuxtConfig({
       author: 'Hybes',
       colorScheme: 'dark light',
       applicationName: 'Hybes Template',
+    }
+  },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+      ]
     }
   },
   vite: {

@@ -5,14 +5,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: [
-    'v-gsap-nuxt',
-    'nuxt-api-shield',
-    '@nuxt/icon',
     '@nuxt/fonts',
-    '@nuxt/eslint',
-    '@nuxtjs/seo',
+    '@nuxt/icon',
     '@nuxtjs/color-mode',
-    '@vueuse/nuxt'
+    '@nuxtjs/seo',
+    '@vueuse/nuxt',
+    '@vueuse/motion/nuxt',
+    'nuxt-api-shield',
+    'v-gsap-nuxt'
   ],
   fonts: {
     experimental: {

@@ -1,0 +1,97 @@
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+	:root {
+		/* Light Colours */
+		--background: #fff;
+		--primary-50: #f4f6f7;
+		--primary-100: #e3e7ea;
+		--primary-200: #cad1d7;
+		--primary-300: #a6b2ba;
+		--primary-400: #7a8a96;
+		--primary-500: #5e6e7c;
+		--primary-600: #515d69;
+		--primary-700: #48515b;
+		--primary-800: #3e454c;
+		--primary-900: #373c42;
+		--primary-950: #22262a;
+
+		/* Accent Colours */
+		--accent-50: #f1f7fe;
+		--accent-100: #e2effc;
+		--accent-200: #bfddf8;
+		--accent-300: #86c3f3;
+		--accent-400: #46a4ea;
+		--accent-500: #1e89d9;
+		--accent-600: #116bb8;
+		--accent-700: #0f5695;
+		--accent-800: #10497c;
+		--accent-900: #133e67;
+		--accent-950: #0c2540;
+	}
+
+	html.dark {
+		--background: #1a1a1a;
+		--primary-50: #22262a;
+		--primary-100: #373c42;
+		--primary-200: #48515b;
+		--primary-300: #515d69;
+		--primary-400: #5e6e7c;
+		--primary-500: #7a8a96;
+		--primary-600: #a6b2ba;
+		--primary-700: #cad1d7;
+		--primary-800: #e3e7ea;
+		--primary-900: #f4f6f7;
+		--primary-950: #ffffff;
+
+		--accent-50: #0c2540;
+		--accent-100: #133e67;
+		--accent-200: #10497c;
+		--accent-300: #0f5695;
+		--accent-400: #116bb8;
+		--accent-500: #1e89d9;
+		--accent-600: #46a4ea;
+		--accent-700: #86c3f3;
+		--accent-800: #bfddf8;
+		--accent-900: #e2effc;
+		--accent-950: #f1f7fe;
+	}
+
+	html {
+		background-color: var(--background);
+		scroll-behavior: smooth;
+	}
+}
+
+@theme {
+	/* Main Colours */
+	--color-background: var(--background);
+	--color-primary-50: var(--primary-50);
+	--color-primary-100: var(--primary-100);
+	--color-primary-200: var(--primary-200);
+	--color-primary-300: var(--primary-300);
+	--color-primary-400: var(--primary-400);
+	--color-primary-500: var(--primary-500);
+	--color-primary-600: var(--primary-600);
+	--color-primary-700: var(--primary-700);
+	--color-primary-800: var(--primary-800);
+	--color-primary-900: var(--primary-900);
+	--color-primary-950: var(--primary-950);
+
+	--color-accent-50: var(--accent-50);
+	--color-accent-100: var(--accent-100);
+	--color-accent-200: var(--accent-200);
+	--color-accent-300: var(--accent-300);
+	--color-accent-400: var(--accent-400);
+	--color-accent-500: var(--accent-500);
+	--color-accent-600: var(--accent-600);
+	--color-accent-700: var(--accent-700);
+	--color-accent-800: var(--accent-800);
+	--color-accent-900: var(--accent-900);
+	--color-accent-950: var(--accent-950);
+
+	--font-body: Satoshi, sans-serif;
+	--font-heading: Poppins, sans-serif;
+	--ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+	--ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}

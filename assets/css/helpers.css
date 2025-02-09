@@ -1,0 +1,23 @@
+@utility container {
+	@apply mx-auto px-2 md:px-4;
+}
+
+@utility center {
+	@apply flex items-center justify-center;
+}
+
+@utility end {
+	@apply flex items-end justify-end;
+}
+
+@utility start {
+	@apply flex items-start justify-start;
+}
+
+@utility between {
+	@apply flex justify-between;
+}
+
+@utility mhs {
+	@apply min-h-screen;
+}

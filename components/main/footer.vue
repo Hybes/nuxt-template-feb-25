@@ -28,16 +28,16 @@
 					<h2 class="font-heading text-primary-900 mb-3 text-sm font-medium tracking-widest">CATEGORIES</h2>
 					<nav class="mb-10 list-none">
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">First Link</NuxtLink>
+							<NuxtLink>First Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Second Link</NuxtLink>
+							<NuxtLink>Second Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Third Link</NuxtLink>
+							<NuxtLink>Third Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Fourth Link</NuxtLink>
+							<NuxtLink>Fourth Link</NuxtLink>
 						</li>
 					</nav>
 				</div>
@@ -45,16 +45,16 @@
 					<h2 class="font-heading text-primary-900 mb-3 text-sm font-medium tracking-widest">CATEGORIES</h2>
 					<nav class="mb-10 list-none">
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">First Link</NuxtLink>
+							<NuxtLink>First Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Second Link</NuxtLink>
+							<NuxtLink>Second Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Third Link</NuxtLink>
+							<NuxtLink>Third Link</NuxtLink>
 						</li>
 						<li>
-							<NuxtLink class="text-primary-600 hover:text-primary-800">Fourth Link</NuxtLink>
+							<NuxtLink>Fourth Link</NuxtLink>
 						</li>
 					</nav>
 				</div>

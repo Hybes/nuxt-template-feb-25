@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import './config.css';
 @import './helpers.css';
+@import './elements.css';
 
 @utility form-input {
 	@apply border-primary-300 bg-primary-100/50 text-primary-700 focus:border-accent-500 focus:bg-primary-50 focus:ring-accent-200 w-full rounded border px-3 py-1 text-base leading-8 transition-colors duration-200 ease-in-out outline-none focus:ring-2;

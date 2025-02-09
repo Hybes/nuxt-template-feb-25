@@ -1,0 +1,13 @@
+@layer base {
+	a {
+		@apply text-primary-600 hover:text-primary-800;
+	}
+
+	button.btn {
+		@apply bg-accent-500 hover:bg-accent-600 text-primary-100 mx-auto flex rounded border-0 px-8 py-2 text-lg focus:outline-none;
+	}
+
+	h1 {
+		@apply mb-2 text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl;
+	}
+}

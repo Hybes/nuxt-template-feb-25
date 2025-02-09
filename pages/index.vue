@@ -11,7 +11,7 @@
 				>
 					<h2 class="font-heading text-accent-500 mb-1 text-xs font-medium tracking-widest">LOREM IPSUM DOLOR</h2>
 					<div class="text-pretty">
-						<h1 class="mb-2 text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
+						<h1>
 							<span
 								v-for="(word, wordIndex) in title.split(' ')"
 								:key="wordIndex"
@@ -40,7 +40,7 @@
 						{ opacity: 1, x: 0, duration: 0.8 }
 					]"
 					v-gsap.magnetic
-					class="bg-accent-500 hover:bg-accent-600 mx-auto mt-8 flex rounded border-0 px-8 py-2 text-lg text-white focus:outline-none"
+					class="btn"
 				>
 					Lorem Ipsum
 				</button>
@@ -77,12 +77,7 @@
 							</div>
 						</div>
 						<div class="w-full p-2">
-							<button
-								v-gsap.magnetic
-								class="bg-accent-500 hover:bg-accent-600 mx-auto flex rounded border-0 px-8 py-2 text-lg text-white focus:outline-none"
-							>
-								Button
-							</button>
+							<button v-gsap.magnetic class="btn">Button</button>
 						</div>
 						<div class="border-primary-200 mt-8 w-full border-t p-2 pt-8 text-center">
 							<NuxtLink class="text-accent-500">example@email.com</NuxtLink>
